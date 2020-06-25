@@ -1,3 +1,4 @@
+/* Sets box-sizing type and padding/margin values for entire page */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -25,6 +26,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Floats header links to the right */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -57,6 +59,7 @@ p {
     margin-bottom: 25px;
 }
 
+/* Causes the hero image to take up the full width of the screen */
 .hero img {
     width: 100%;
     height: 100%;
@@ -98,6 +101,7 @@ p {
     font-size: 36px;
 }
 
+/* Floats the benefits aside to the right and gives new color, positioning, and font stylings */
 .benefits {
     margin-right: 20px;
     padding: 20px;
